@@ -1,0 +1,25 @@
+.track{
+    height: 100px;
+    width: 1000px;
+    border: 3px solid black;
+    position: relative;
+}
+.car1 {
+    width: 80px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.car2 {
+    width: 80px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.finish {
+    position: absolute;
+    right: 20px;
+    width: 90px;
+}
