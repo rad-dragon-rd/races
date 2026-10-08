@@ -3,7 +3,8 @@ let car2 = document.querySelector(".car2")
 let score = 100
 let bet = 10
 let playerCar = 0
-let start = false
+// Переменная start
+let start = false 
 
 document.querySelector(".black-btn").onclick = function(){
     if (start == false && bet > 0){
